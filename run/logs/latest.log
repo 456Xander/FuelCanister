@@ -1,0 +1,10 @@
+[11:15:20] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[11:15:27] [Server thread/INFO]: Loading properties
+[11:15:27] [Server thread/WARN]: server.properties does not exist
+[11:15:27] [Server thread/INFO]: Generating new properties file
+[11:15:27] [Server thread/WARN]: Failed to load eula.txt
+[11:15:27] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[11:15:27] [Server thread/INFO]: Stopping server
+[11:15:27] [Server thread/INFO]: Saving worlds
+[11:15:27] [Server Shutdown Thread/INFO]: Stopping server
+[11:15:27] [Server Shutdown Thread/INFO]: Saving worlds

@@ -70,8 +70,8 @@ public class FuelCanister {
 	@EventHandler
 	public void init(FMLInitializationEvent e) {
 		GameRegistry.registerFuelHandler(new CanisterFuelHandler());
-		fuelCanister = new ItemFuelCanister("fuelCanister");
-		emptyCanister = new ItemFuelCanisterEmpty("emptyFuelCanister");
+		fuelCanister = new ItemFuelCanister("fuel_canister");
+		emptyCanister = new ItemFuelCanisterEmpty("empty_fuel_canister");
 		GameRegistry.addRecipe(new ShapedOreRecipe(emptyCanister, " II", "I I", "III", 'I', "ingotIron"));
 		proxy.init(e);
 	}

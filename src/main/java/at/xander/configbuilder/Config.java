@@ -45,6 +45,9 @@ public class Config {
 	}
 
 	public boolean shouldBeCreated() {
+		if (!cfgFile.exists()) {
+			return true;
+		}
 		BufferedReader reader = null;
 		int versionOfFile = 1;
 		boolean rewriteVersion = true;
@@ -102,7 +105,7 @@ public class Config {
 				sb.append(System.lineSeparator());
 			}
 			writer = new BufferedWriter(new FileWriter(cfgFile));
-			sb.insert(0, getVersion()+ System.lineSeparator());
+			sb.insert(0, getVersion() + System.lineSeparator());
 			writer.write(sb.toString());
 		} finally {
 			if (reader != null) {

@@ -1,2 +1,2 @@
-item.fuelCanister.name=Kohlekanister
-item.emptyFuelCanister.name=Leerer Kohlekanister
+item.fuel_canister.name=Kohlekanister
+item.empty_fuel_canister.name=Leerer Kohlekanister

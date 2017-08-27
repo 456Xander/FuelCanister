@@ -28,6 +28,9 @@ public class FuelValues {
 
 	public FuelValue getValue(ItemStack iStack) {
 		FuelValue value;
+		if(iStack.isEmpty()) {
+			return null;
+		}
 		value = stackToValues.get(new MetaItem(iStack));
 		if (value == null) {
 			int[] oreDictNames = OreDictionary.getOreIDs(iStack);

@@ -1,0 +1,15 @@
+[10:59:36] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[10:59:36] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.NullPointerException
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:380) ~[forgeSrc-1.11.2-13.20.1.2386.jar:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:554) ~[forgeSrc-1.11.2-13.20.1.2386.jar:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99) ~[forgeSrc-1.11.2-13.20.1.2386.jar:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) ~[forgeSrc-1.11.2-13.20.1.2386.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:124) ~[forgeSrc-1.11.2-13.20.1.2386.jar:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:508) [forgeSrc-1.11.2-13.20.1.2386.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[10:59:36] [Server thread/ERROR]: This crash report has been saved to: /home/alex/Dokumente/MC_Mods/FuelCanister/./crash-reports/crash-2017-08-27_10.59.36-server.txt
+[10:59:36] [Server thread/INFO]: Stopping server
+[10:59:36] [Server thread/INFO]: Saving worlds
+[10:59:36] [Server Shutdown Thread/INFO]: Stopping server
+[10:59:36] [Server Shutdown Thread/INFO]: Saving worlds

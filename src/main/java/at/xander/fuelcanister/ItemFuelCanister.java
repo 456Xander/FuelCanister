@@ -15,8 +15,8 @@ public class ItemFuelCanister extends GenericFuelCanister {
 
 	@Override
 	public ItemStack getContainerItem(ItemStack itemStack) {
-		if (itemStack.getMetadata() < MAX_DAMAGE)
-			return new ItemStack(itemStack.getItem(), 1, itemStack.getItemDamage()+1);
+		if (itemStack.getMetadata() < MAX_DAMAGE - 1)
+			return new ItemStack(this, 1, itemStack.getItemDamage()+1);
 		else{
 			return new ItemStack(emptyCanister, 1);
 		}

@@ -14,7 +14,7 @@ public class MetaItem {
 	public MetaItem(String modid, String itemName, int meta) {
 		ResourceLocation l = new ResourceLocation(modid, itemName);
 		// First check for block, so I don't get the Block's Item
-		Item item = Item.itemRegistry.getObject(l);
+		Item item = Item.REGISTRY.getObject(l);
 		if (item == null) {
 			throw new IllegalArgumentException("Item named by name does not exist");
 		}

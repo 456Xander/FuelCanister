@@ -1,0 +1,12 @@
+[10:59:35] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[10:59:35] [main/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[10:59:35] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
+[10:59:36] [Server thread/INFO] [FML/]: MinecraftForge v13.20.1.2386 Initialized
+[10:59:36] [Server thread/INFO] [FML/]: Replaced 232 ore recipes
+[10:59:36] [Server thread/INFO] [FML/]: No mod directory found, creating one: /home/alex/Dokumente/MC_Mods/FuelCanister/mods
+[10:59:36] [Server thread/INFO] [FML/]: Mod directory created successfully
+[10:59:36] [Server thread/DEBUG] [FML/]: No config directory found, creating one: /home/alex/Dokumente/MC_Mods/FuelCanister/config
+[10:59:36] [Server thread/INFO] [FML/]: Config directory created successfully
+[10:59:36] [Server thread/DEBUG] [FML/]: File /home/alex/Dokumente/MC_Mods/FuelCanister/config/injectedDependencies.json not found. No dependencies injected
+[10:59:36] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[10:59:36] [Server thread/INFO] [FML/]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
