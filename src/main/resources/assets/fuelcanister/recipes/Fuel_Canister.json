@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" ##",
+		"# #",
+		"###"
+	],
+	"key": {
+		"#": {
+			"type": "forge:ore_dict",
+			"ore": "ingotIron"
+		}
+	},
+	"result":{
+		"item": "fuelcanister:empty_fuel_canister"
+	}
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "fuelcanister",
+  "name": "Fuel Canister",
+  "description": "Adds the fuel canister which can be filled with coal and then used as fuel.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["456Xander"],
+  "credits": "456Xander for making this mod Andi43 for providing the texture",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
